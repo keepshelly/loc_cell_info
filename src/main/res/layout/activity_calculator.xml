@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/main_gradient">
+    <TextView
+        android:id="@+id/tvdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="32sp"
+        android:gravity="end"
+        android:padding="16dp"
+        android:background="#353535"
+        android:textColor="#FFFFFF"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+        <Button
+            android:id="@+id/btn7"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="7"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn8"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="8"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn9"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="9"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btndel"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="/"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn4"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="4"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn5"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="5"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn6"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="6"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnumnozh"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="*"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn1"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="1"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="2"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn3"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="3"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnminus"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="-"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnclear"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FF0000"
+            android:text="C"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btn0"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFA500"
+            android:text="0"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnravno"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="#4CAF50"
+            android:text="="
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnsum"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="+"
+            android:textSize="24sp" />
+    </GridLayout>
+</LinearLayout>

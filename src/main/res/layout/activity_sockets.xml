@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:background="@drawable/main_gradient">
+
+    <TextView
+        android:id="@+id/sockets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btntoserv"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:text="отправить" />
+
+    <TextView
+        android:id="@+id/tvlog"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_marginTop="20dp"
+        android:background="#1E1E1E"
+        android:padding="10dp"
+        android:text="LOGS:\n"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/etServerIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IP Сервера"
+        android:text=""
+        android:inputType="text" />
+
+
+
+</LinearLayout>
