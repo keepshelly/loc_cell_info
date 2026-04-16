@@ -1,0 +1,6 @@
+build/
+bin/
+*.o
+*.a
+history.json.processed
+third_party/

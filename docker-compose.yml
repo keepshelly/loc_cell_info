@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  db: 
+    image: postgres:15
+    container_name: signal_postgres
+    environment:
+      POSTGRES_USER: kirill
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: signal_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    depends_on:
+      - db 
+    environment:
+      - DISPLAY=${DISPLAY} 
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: "bridge"
+
+volumes:
+  pgdata:
