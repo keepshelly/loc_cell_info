@@ -1,0 +1,19 @@
+[submodule "third_party/imgui"]
+	path = third_party/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = backserv
+[submodule "third_party/implot"]
+	path = third_party/implot
+	url = https://github.com/epezent/implot.git
+[submodule "third_party/third_party/json"]
+	path = third_party/third_party/json
+	url = https://github.com/nlohmann/json.git
+[submodule "third_party/third_party/glfw"]
+	path = third_party/third_party/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "third_party/third_party/libzmq"]
+	path = third_party/third_party/libzmq
+	url = https://github.com/zeromq/libzmq.git
+[submodule "third_party/third_party/cppzmq"]
+	path = third_party/third_party/cppzmq
+	url = https://github.com/zeromq/cppzmq.git
